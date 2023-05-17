@@ -1,0 +1,28 @@
+.fixed {
+  width: 87vw;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 3px;
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(to top left, #4905d0, #d005d0);
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
