@@ -1,5 +1,6 @@
 .fixed {
   width: 87vw;
+  padding: 0 6px;
 }
 
 .category {
@@ -25,4 +26,11 @@
 
 .container::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 750px) {
+  .fixed {
+    width: 100vw;
+    padding: 0 6px;
+  }
 }

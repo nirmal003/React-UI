@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
 .contain:hover .movie-info {
